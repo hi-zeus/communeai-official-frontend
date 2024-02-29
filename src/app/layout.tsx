@@ -33,8 +33,8 @@ import "@fontsource/source-code-pro";
 import { projectId } from "../config";
 import Footer from '@/components/templates/footer/footer';
 import NavigationBar from '@/components/molecules/navbar/navigation-bar';
-import ThemeProvider from "./toggle-theme-provider";
-import Head from "./head";
+import ThemeProvider from '@/context/toggle-theme-provider';
+import Head from '@/components/templates/home/head';
 
 import './globals.css';
 import 'reactflow/dist/style.css';
